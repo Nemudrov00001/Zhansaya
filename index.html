@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+    <title>Frontend Mentor | Article preview component</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+    .attribution
+    { 
+      font-size: 11px; 
+      text-align: center; 
+      font-size: 0.9em; 
+      font-family: var(--Headings); 
+    }
+    .attribution a 
+    { 
+      color: hsl(228, 45%, 44%); 
+    }
+    .drawers 
+    {
+    height: 280px;
+    width: 285px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    }
+    a 
+    {
+      text-decoration: none;
+    }
+   ul 
+    {
+      list-style: none;
+    }
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <main class="article">
+    <img src="images/drawers.jpg" class="drawers" alt="zhansaya1"/>
+    <div class="content" style="padding: 30px; display: grid; align-content: center; grid-gap: 20px;  ">
+
+    <div class="content_article">
+      <h1 class="title_article"> Shift the overall look and feel by adding these wonderful touches to furnite in your home</h1>
+      <p class="text_article"> Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some s imple tips to help you make any room feel complete.</p>
+    </div>
+    
+    <div class="author">
+    <div class="author_info">
+    <img src="images/zhansaya.jpeg" class="avatar" alt="zhansaya" style="width:35px; height: 40px; margin-left: 10px; "/>
+    <div class="author_data">
+     <h2 class="author_name">Zhansaya Kulbaeva</h2>
+     <time class="time" datetime="2021-10-30">30 Oct 2021</time>
+    </div>
+    </div>
+    <div class="share_author">
+    <img src="./images/icon-share.svg" class="toggle" id="toggle" alt="share"/>
+    </div>
+    </div>
+
+    <div class="share_social" id="share_social">
+      <h3>SHARE</h3>
+      <ul>
+      <li><a class="share_social_link" href="https://web.telegram.org/k/" target="_blank"> <img src="./images/icons8-телеграмма-app.svg" alt="telegramweb"/></a></li>
+      <li><a class="share_social_link" href="https://vk.com/zhansaya_13" target="_blank"> <img src="./images/icons8-vk-в-круге.svg" alt="vk"/></a></li>
+      </ul>
+<!--HERE MY JAVASCRIPT--><!--HERE MY JAVASCRIPT--><!--HERE MY JAVASCRIPT--><!--HERE MY JAVASCRIPT--><!--HERE MY JAVASCRIPT-->
+      <script src="zhansaya111.js"></script>
+    </div>
+    </div>
+    </main>
+    <div class="attribution" style="margin-top: -30px;">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="zhansss.pdf">Zhansaya Kulbaeva</a> and <a href="https://nemudrov00001.github.io/Summary/">Alexander Nemudrov</a>
+    </div>
+  </body>
+</html>
